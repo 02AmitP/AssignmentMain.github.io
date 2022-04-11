@@ -1,0 +1,149 @@
+<html>
+<head>
+<style>
+
+body{
+background-image: url('https://images.wallpapersden.com/image/download/spaceship-imperial-cutter_bGlqaGmUmZqaraWkpJRmbmdlrWZlbWU.jpg');
+}
+
+.button{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  margin: 5px;
+}
+
+.text-center {
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 1840px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+h1 {
+color = red;
+animation-name: animation;
+animation-duration: 6s;
+animation-delay: 0.1s;
+animation-fill-mode: both;
+animation-iteration-count:infinite;
+text-align: center;
+font-size: 500%;
+}
+
+p{
+color: yellow;
+font-size: 200%;
+text-align: center;
+}
+
+@keyframes animation{
+0%{color : red;}
+20%{color : green;}
+40%{color : yellow;}
+60%{color : orange;}
+80{color : pink;}
+100%{color : red;}
+}
+
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: pink;
+}
+.container {
+    padding: 50px;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: orange;
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<h1><strong> Welcome Andromedians</strong></h1>
+<p> “The true soldier fights not because he hates what is in front of him, but because he loves what is behind him.” </p>
+<form style="text-align:center; font-size:150%">
+  <div class="container">
+  <hr>
+  <label> Name </label> 
+<input type="text" name="firstname" placeholder= "Your Name" size="15" required style="text-align:center;"/> 
+<label> Middlename: </label> 
+<input type="text" name="middlename" placeholder="Middlename" size="15" required style="text-align:center" /> 
+<label> Lastname: </label>  
+<input type="text" name="lastname" placeholder="Lastname" size="15"required style="text-align:center"/> 
+<div>
+<label> 
+Special Attribute :
+</label> 
+
+<select>
+<option value="Strength">Strength</option>
+<option value="Agility">Agility</option>
+<option value="Intelligence">Intelligence</option>
+<option value="Stealth">Stealth</option>
+<option value="Endurance">Endurance</option>
+</select>
+</div>
+<div>
+<label style="text-align:center;"> 
+Gender :
+</label><br>
+<input type="radio" value="Warrior" name="Fight" checked > Warrior 
+<input type="radio" value="Medic" name="Fight"> Medic 
+<input type="radio" value="Fighter Pilot" name="Fight"> Fighter Pilot
+
+</div>
+<label> 
+Planet From :
+<textarea cols="10" rows="1" placeholder="Current Planet" value="address" required style="text-align:center">
